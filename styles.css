@@ -1,0 +1,174 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.imge {
+  transform: rotate(20deg);
+  position: absolute;
+  width: 22%;
+}
+
+#features {
+  background-color: #fff;
+  position: relative;
+  padding: 7% 15%;
+  z-index: 1;
+}
+
+/* navbar */
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4%;
+}
+
+.nav-item {
+
+  padding: 0 10px;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: "Montserrat-light", sans-serif;
+}
+
+.download {
+  margin: 5% 3% 5% 0%;
+}
+
+.basic {
+  font-family: "montserrat-bold", sans-serif;
+  font-weight: 1.5rem;
+  text-align: center;
+}
+
+.basic:hover {
+  color: #ff4c68;
+}
+
+.basic-1 {
+  color: #8f8f8f;
+  text-align: center;
+  padding: 5% 6%;
+}
+
+
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 10px;
+}
+
+.icon:hover {
+  color: #ff4c68;
+
+}
+
+
+.col-lg-4 {
+  text-align: center;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  background-color: #ef8172;
+  text-align: center;
+  font-family: "montserrat-bold", sans-serif;
+  color: #fff;
+
+}
+
+.testimonial-text {
+
+  font-size: 300%;
+  font-weight: bolder;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+
+}
+
+.card-1 {
+  margin: 5% 5% 7%;
+}
+
+.true-love {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
+
+#cta {
+  text-align: center;
+  padding: 7% 15%;
+  font-family: "Montserrat-Black", sans-serif;
+  color: #fff;
+  background-color: #ff4c68;
+  margin: 3% auto;
+}
+
+@media (max-width:990px) {
+  #title {
+    text-align: center;
+  }
+
+  .imge {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#footer {
+  text-align: center;
+  padding: 10px 20px;
+
+}
+
+.fa-lg {
+  margin: 20px 30px;
+  padding: 30px 30px;
+}
+
+.copyright {
+  color: grey;
+}
